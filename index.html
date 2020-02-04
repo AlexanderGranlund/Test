@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="sv">
- <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="cssTC/style.css"/>
-   <link rel="stylesheet" href="cssTC/grid.css"/>
-    <title id="heading1">Tech Comparator</title>
- </head>
- <body>
-    <h1 id="toppen">Tech Comparator</h1>
-      <div class="container">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="cssTC/style.css" />
+  <link rel="stylesheet" href="cssTC/grid.css" />
+  <title id="heading1">Tech Comparator</title>
+</head>
+
+<body>
+  <h1 id="toppen">Tech Comparator</h1>
+  <div class="container">
     <header>
-    Recomended Smartphones from 2019!
-</header>
-   <nav>
-       <div class="navbar">
-   <a href="#home">Home</a>
-   <a href="Index2.html" >Compare</a>
-   <div class="dropdown">
-   <button class="dropbtn" onclick="myFunction()">About US
-     <i class="fa fa-caret-down"></i>
-   </button>
-   <div class="dropdown-content" id="myDropdown">
-     <a href="Index3.html">What Do We Do?</a>
-     <a href="Index3.html">What do we do?</a>
-     <a href="Index3.html">How Does This Site Work?</a>
-   </div>
-   </div>
+      Recomended Smartphones from 2019!
+    </header>
+    <nav>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="Index2.html">Compare</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">About Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="Index3.html">What Do We Do?</a>
+            <a href="Index3.html">What do we do?</a>
+            <a href="Index3.html">How Does This Site Work?</a>
+          </div>
+        </div>
 
 
- <script>
- /* When the user clicks on the button,
- toggle between hiding and showing the dropdown content */
- function myFunction() {
-   document.getElementById("myDropdown").classList.toggle("show");
- }
 
- // Close the dropdown if the user clicks outside of it
- window.onclick = function(e) {
-   if (!e.target.matches('.dropbtn')) {
-   var myDropdown = document.getElementById("myDropdown");
-     if (myDropdown.classList.contains('show')) {
-       myDropdown.classList.remove('show');
-     }
-   }
- }
- </script>
-       <br>
-       <br>
-   </div>
-   </nav>
-   <section>
-   </section>
-   <section id="section1">
-   </section>
-   <footer>
-     <br>
-      <a href="#toppen" id="footerbtn" >Have a technical day!</a>
-   </footer>
- </div>
- </body>
- </html>
+        <br>
+        <br>
+      </div>
+    </nav>
+    <section id="section0">
+      <div class="links">
+        <a class="standardtext" href="https://www.samsung.com/us/mobile/galaxy-note10/1/">Samsung Galaxy Note 10 Plus</a>
+      </div>
+    </section>
+
+    <section id="section1">
+      <div class="links">
+        <a class="standardtext" href="http://www.apple.com/iphone-11-pro/">Iphone 11 Pro</a>
+      </div>
+    </section>
+
+    <section id="section2">
+      <div class="links">
+        <a class="standardtext" href="https://www.samsung.com/us/mobile/galaxy-s10/">Samsung Galaxy S10</a>
+      </div>
+    </section>
+
+    <section id="section3">
+      <div class="links">
+        <a class="standardtext" href="https://consumer.huawei.com/en/phones/p30-pro/">Huawei P30 Pro</a>
+      </div>
+    </section>
+
+    <section id="section4">
+      <div class="links">
+        <a class="standardtext" href="https://www.samsung.com/us/mobile/galaxy-fold/">Samsung Galaxy Fold</a>
+      </div>
+    </section>
+
+    <section id="section5">
+      <div class="links">
+        <a class="standardtext" href="https://www.oneplus.com/7pro?from=head#/">Oneplus 7 Pro</a>
+      </div>
+    </section>
+
+    <footer>
+      <br>
+      <a class="standardtext" href="#toppen" id="footerbtn">Have a technical day!</a>
+    </footer>
+  </div>
+  <script type="text/javascript" src="cssTC/js.js"> </script>
+</body>
+
+</html>

@@ -1,62 +1,113 @@
-body{
+body {
   margin: 0px;
-   background-image: url("https://cdn.pixabay.com/photo/2016/02/15/11/40/background-1201008_960_720.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/15/11/40/background-1201008_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-h1{
+h1 {
   background-color: darkblue;
   padding: 30px;
   margin: 0px;
-  /*
   text-align: center;
-  font-size: 50px;
+  font-size: 5rem;
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;*/
+  /*
+  text-shadow: 3px 3px black; */
+  -webkit-text-stroke: 2px black;
+}
 
-  font-size: 5em;
-  -webkit-text-stroke: 3px black;
+header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  text-shadow: 1px 1px black;
+}
+
+/*
+  -webkit-text-stroke: 2px black;
   -webkit-text-fill-color: white;
   -webkit-animation: fill 0.5s infinite alternate;
   text-align: center;
+}
+
+/*
+@-webkit-keyframes fill {
+  from {
+    -webkit-text-fill-color: darkblue;
   }
 
-  @-webkit-keyframes fill {
-  from { -webkit-text-fill-color: darkblue; }
-  to { -webkit-text-fill-color: white; }
+  to {
+    -webkit-text-fill-color: white;
+  }
 
-  View Compiled
-
-
-  Resources
-
-}
-
-
-header{
+  View Compiled Resources
+} */
+nav {
   text-align: center;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-  color: white;
-  font-size: 2rem;
-  
+  padding: 0px;
+  margin: 0px;
 }
-nav{
-  text-align: center;
-  padding: 0px; margin: 0px;
-}
-
 
 div {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-section {
+#section0 {
+  text-align: center;
 }
 
+#section1 {
+  text-align: center;
+}
+
+#section2 {
+  text-align: center;
+}
+
+#section3 {
+  text-align: center;
+}
+
+#section4 {
+  text-align: center;
+}
+
+#section5 {
+  text-align: center;
+}
+
+.links {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  padding: 16px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+  height: 3vh;
+  width: 30vw;
+}
+
+.standardtext {
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
 
 footer {
   background-color: blue;
@@ -65,19 +116,20 @@ footer {
   text-align: center;
   font-size: 2rem;
   color: white;
-    box-shadow: 0px 10px 40px black;
+  box-shadow: 0px 10px 40px black;
 }
+
 #footerbtn {
   text-align: center;
   color: white;
   font-size: 2rem;
   text-shadow: 1px 3px 3px black, 0 0 25px blue, 0 0 5px darkblue;
-
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333; /* #333 */
+  background-color: #333;
+  /* #333 */
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0px 10px 55px black;
 }
@@ -120,7 +172,7 @@ footer {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
 }
