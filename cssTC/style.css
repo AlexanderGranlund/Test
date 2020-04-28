@@ -189,8 +189,15 @@ footer {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border: 1px solid blue;
 }
 
 .show {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
 }

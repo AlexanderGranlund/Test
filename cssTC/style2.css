@@ -98,6 +98,7 @@ nav {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border: 1px solid blue;
 }
 
 .show {
@@ -126,6 +127,7 @@ nav {
 
 .dropdown-content2 a:hover {
   background-color: #ddd;
+  border: 1px solid blue;
 }
 
 .show {
@@ -315,4 +317,22 @@ footer {
   padding: 15px;
   margin: 0px;
   border-style: double;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #t01 {
+    padding: 0px;
+  }
+
+  #t02 {
+    padding: 0px;
+  }
+
+  #t03 {
+    padding: 0px;
+  }
 }
